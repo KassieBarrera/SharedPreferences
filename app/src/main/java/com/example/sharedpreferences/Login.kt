@@ -68,7 +68,6 @@ class Login : AppCompatActivity() {
                 .apply()
         }
     }
-
     fun preferenciasExist() {
         val email = preferencias!!.getString("email", "")
         val pass = preferencias!!.getString("pass", "")
