@@ -50,7 +50,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(intentFor<Login>().newTask().clearTask())
             true
         }
-
         else -> false
     }
 }
